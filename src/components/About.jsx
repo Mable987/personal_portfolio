@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/images/image.png'
+import profile from '../assets/images/Mable1.jpeg'
 import '../components/css/style.css'
 
 function About() {
@@ -17,10 +17,9 @@ function About() {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            I am a passionate <b>Python Full Stack Developer</b> who enjoys
-            building modern web applications. I work with technologies like
-            React, Django, and JavaScript to create fast and responsive
-            applications.
+            I’m Mable Simon, a <b>Python Full Stack Developer</b> from Kerala with a strong interest in building scalable and user-friendly web applications. I enjoy combining backend logic with modern frontend experiences using Django and React.
+
+I’m especially interested in solving real-world problems through technology and continuously improving my skills as a developer.
           </p>
 
           <p>
@@ -37,7 +36,6 @@ function About() {
             <span>CSS</span>
           </div>
 
-          <button className="about-btn">Download Resume</button>
         </div>
 
       </div>

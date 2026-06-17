@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import TopNavbar from './components/TopNavbar'
 import Home from './components/Home'
@@ -28,41 +27,49 @@ function App() {
       "description": "A web application where users can book sports turfs online with date and time slot selection.",
       "technologies": ["Django", "Python", "MySQL"],
       "liveLink": "#",
-      "githubLink": "#",
+      "githubLink": "https://github.com/Mable987/TurfHub.git",
       "image": "../src/assets/images/CRICKET STADIUM.jpeg"
     },
     {
       "title": "E-commerce Website",
       "description": "An online store built with Django and React, featuring product listings, shopping cart, and checkout functionality.",
       "technologies": ["Django", "React", "Stripe API"],
-      "liveLink": "#",
-      "githubLink": "#",
+      "liveLink": "https://mablesimon.pythonanywhere.com/",
+      "githubLink": "https://github.com/Mable987/PhoneNext.git",
       "image": "../src/assets/images/Instagram.jpeg"
     },
       {
-      "title": "  Portfolio",
+      "title": "Portfolio",
       "description": "Personal developer portfolio built with React to showcase my projects and skills.",
       "technologies": ["React", "CSS", "JavaScript"],
       "liveLink": "#",
-      "githubLink": "#",
+      "githubLink": "https://github.com/Mable987/personal_portfolio.git",
       "image": "../src/assets/images/portfilio.jpeg"
     }
   ];
   const contactInfo = [
-    {"type": "Email", "value": "mablesimon987@gmail.com"},
+    {"type": "Email", "value": "mablesimonp@gmail.com"},
     {"type": "Phone", "value": "+91 8921087184"},
-    {"type": "Location", "value": "Erakulam, Kerala"}
+    {"type": "Location", "value": "Ernakulam, Kerala"}
   ];
+  const socialLinks = {
+  linkedin: "https://www.linkedin.com/in/mable-simon-",
+  github: "https://github.com/Mable987",
+  
+};
 
   return (
-  <div>
-    <TopNavbar ></TopNavbar>
+  <div className="portfolio-wrapper">
+    <TopNavbar />
     <Home user={user}></Home>
     <About></About>
     <Skills skillset={skillset}></Skills>
     <Projects projects={projects}></Projects>
     <Resume></Resume>
-    <Contact contactInfo={contactInfo}></Contact>
+    <Contact
+  contactInfo={contactInfo}
+  socialLinks={socialLinks}
+/>
     <Footer></Footer>
   </div>
   )
