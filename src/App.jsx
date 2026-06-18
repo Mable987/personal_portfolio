@@ -45,7 +45,7 @@ function App() {
     title: "Portfolio",
     description: "Personal developer portfolio built with React to showcase my projects and skills.",
     technologies: ["React", "CSS", "JavaScript"],
-    liveLink: "https://personal-portfolio-p9mnuosvd-mablesimonp-2820s-projects.vercel.app/",
+    liveLink: "https://personal-portfolio-phi-nine-91.vercel.app/",
     githubLink: "https://github.com/Mable987/personal_portfolio.git",
     image: portfolioImg
   }
