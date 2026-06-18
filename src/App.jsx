@@ -7,6 +7,9 @@ import Projects from './components/Projects'
 import Resume from './components/Resume' 
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import turfImg from './assets/images/CRICKET STADIUM.jpeg'
+import ecommerceImg from './assets/images/Instagram.jpeg'
+import portfolioImg from './assets/images/portfilio.jpeg'
 
 function App() {
   const user = {
@@ -22,31 +25,31 @@ function App() {
     {"name": "CSS", "Percentage": "90%"}
   ];
   const projects = [
-    {
-      "title": "Turf Booking System",
-      "description": "A web application where users can book sports turfs online with date and time slot selection.",
-      "technologies": ["Django", "Python", "MySQL"],
-      "liveLink": "#",
-      "githubLink": "https://github.com/Mable987/TurfHub.git",
-      "image": "../src/assets/images/CRICKET STADIUM.jpeg"
-    },
-    {
-      "title": "E-commerce Website",
-      "description": "An online store built with Django and React, featuring product listings, shopping cart, and checkout functionality.",
-      "technologies": ["Django", "React", "Stripe API"],
-      "liveLink": "https://mablesimon.pythonanywhere.com/",
-      "githubLink": "https://github.com/Mable987/PhoneNext.git",
-      "image": "../src/assets/images/Instagram.jpeg"
-    },
-      {
-      "title": "Portfolio",
-      "description": "Personal developer portfolio built with React to showcase my projects and skills.",
-      "technologies": ["React", "CSS", "JavaScript"],
-      "liveLink": "#",
-      "githubLink": "https://github.com/Mable987/personal_portfolio.git",
-      "image": "../src/assets/images/portfilio.jpeg"
-    }
-  ];
+  {
+    title: "Turf Booking System",
+    description: "A web application where users can book sports turfs online with date and time slot selection.",
+    technologies: ["Django", "Python", "MySQL"],
+    liveLink: "#",
+    githubLink: "https://github.com/Mable987/TurfHub.git",
+    image: turfImg
+  },
+  {
+    title: "E-commerce Website",
+    description: "An online store built with Django and React, featuring product listings, shopping cart, and checkout functionality.",
+    technologies: ["Django", "React", "Stripe API"],
+    liveLink: "https://mablesimon.pythonanywhere.com/",
+    githubLink: "https://github.com/Mable987/PhoneNext.git",
+    image: ecommerceImg
+  },
+  {
+    title: "Portfolio",
+    description: "Personal developer portfolio built with React to showcase my projects and skills.",
+    technologies: ["React", "CSS", "JavaScript"],
+    liveLink: "https://personal-portfolio-p9mnuosvd-mablesimonp-2820s-projects.vercel.app/",
+    githubLink: "https://github.com/Mable987/personal_portfolio.git",
+    image: portfolioImg
+  }
+]
   const contactInfo = [
     {"type": "Email", "value": "mablesimonp@gmail.com"},
     {"type": "Phone", "value": "+91 8921087184"},
